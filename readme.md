@@ -95,5 +95,4 @@ help
 
 Uso académico exclusivamente. No se autoriza la redistribución comercial.
 
-```
 
