@@ -1,0 +1,14 @@
+set x = 10
+add 5 3
+sub 10 2
+inc x
+dec x
+echo "Hola mundo"
+mkdir "nueva_carpeta"
+vars
+template card user
+scaffold login form
+serve "localhost"
+if 5 > 2 then echo "Condición verdadera"
+eval 2 + 2
+exit

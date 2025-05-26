@@ -1,0 +1,29 @@
+{
+  "name": "umg-compilador",
+  "version": "1.0.0",
+  "description": "Consola Interactiva Avanzada para Compiladores – UMG",
+  "main": "src/main.js",
+  "bin": {
+    "umg": "src/main.js"
+  },
+  "scripts": {
+    "build:parser": "java -jar ./antlr-4.13.1-complete.jar -Dlanguage=JavaScript -o src/parser ./src/grammar/Consola.g4",
+    "start": "node src/index.js",
+    "build:exe": "pnpm exec pkg . --targets node18-win-x64 --output umg.exe"
+  },
+  "author": "Grupo Compiladores UMG",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "antlr4": "^4.13.2",
+    "chalk": "^4.1.2",
+    "chokidar": "^4.0.3"
+  },
+  "keywords": [
+    "compiladores",
+    "umg",
+    "antlr",
+    "node",
+    "interpreter"
+  ]
+}
