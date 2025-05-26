@@ -1,4 +1,4 @@
-````markdown
+
 # Consola Interactiva Avanzada
 
 Proyecto final del curso de **Compiladores** – Universidad Mariano Gálvez de Guatemala (UMG).  
